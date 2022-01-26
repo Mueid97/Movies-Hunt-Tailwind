@@ -25,6 +25,9 @@
                   bebas: ["Bebas Neue", "cursive"],
                   monserrat: ["Montserrat", "sans-serif"],
               },
+            //   backgroundImage:{
+            //     'hero-pattern': "url('/image')",
+            //   },
             },
           },
         };
@@ -32,10 +35,10 @@
 
 </head>
 <body>
-    <header class="w-full h-20 flex justify-center">
+    <header class="w-full h-20 flex justify-center absolute bg-white">
         <nav class="w-4/5 h-full flex justify-between items-center font-bebas">
             <h1 class="text-3xl"><a href="">Movies Hunt</a></h1>
-            <ul class="flex gap-4 hidden sm:flex">
+            <ul class="flex gap-4  sm:flex">
                 <li><a href="">About Us</a></li>
                 <li><a href="">Our Movies</a></li>
                 <li><a href="">Services</a></li>
@@ -43,7 +46,16 @@
         </nav>
     </header>
     <main>
-
+        <section class="h-screen bg-cover bg-no-repeat pt-20 flex items-center"
+        style="background-image: url(images/banner.jpg);">
+            <div class="ml-20 ">
+                <p class="font-bebas text-xl">Movie production studio</p>
+                <h1 class="font-bebas text-5xl text-white">Films MAde to</h1>
+                <h1 class="font-bebas text-5xl text-yellow">Perfection</h1>
+                <p class="w-3/5 text-white pb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit illum obcaecati illo reiciendis, dolores recusandae ducimus consequatur neque iure placeat.</p>
+                <button class="border-2 px-5 py-3 rounded-full text-white border-white hover:bg-lime-300 hover:text-black hover:border-none">Discover More</button>
+            </div>
+        </section>
     </main>
     <footer>
 
